@@ -1,0 +1,9 @@
+@echo off
+echo Changing directory to project folder...
+cd C:\Users\georg\PycharmProjects\Game_Stats
+echo Activating virtual environment...
+call .venv\Scripts\activate
+echo Running Python script...
+python table_tennis_app.py
+echo Script finished. Press any key to exit.
+pause
